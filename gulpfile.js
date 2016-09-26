@@ -1,7 +1,7 @@
  // Theme, Sass, & CSS directories
-var theme_dir   = '../themes/' + 'custom_template',
-    sass_dir    = theme_dir + '/sass/sass/',
-    css_dir     = theme_dir + '/sass/stylesheets';
+var theme_dir   = '../themes/' + 'banda-theme',
+    sass_dir    = theme_dir + '/banda-styles/',
+    css_dir     = theme_dir + '/banda-styles/css';
 
 // Define Gulp and auto-plugin loader
 var gulp        = require('gulp'),
@@ -45,6 +45,7 @@ gulp.task('default', ['watch']);
 gulp.task('watch', function() {
   plugins.livereload.listen();
   gulp.watch(sass_dir + "**/*.+(scss|sass)", ['styles']);
+  gulp.watch('../' + ".git", ['styles']);
   gulp.watch([theme_dir + '/**/*.php', theme_dir + '/**/*.js', theme_dir + '/**/*.css'], function (files){
     plugins.livereload.changed(files)
   });

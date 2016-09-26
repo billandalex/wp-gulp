@@ -1,3 +1,4 @@
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com) 
 # wp-gulp 
 ##### A simple gulpfile for WordPress theme development
 *Requires Node Package Manager and Gulp.* Instructions for installing NPM on [Windows](http://blog.teamtreehouse.com/install-node-js-npm-windows), [Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac), and [Linux](http://blog.teamtreehouse.com/install-node-js-npm-linux). Instructions for installing [Gulp](https://coolestguidesontheplanet.com/installing-gulp-on-osx-10-11-el-capitan/).
