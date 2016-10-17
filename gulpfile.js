@@ -1,7 +1,7 @@
  // Theme, Sass, & CSS directories
-var theme_dir   = '../themes/' + 'banda-theme',
-    sass_dir    = theme_dir + '/banda-styles/',
-    css_dir     = theme_dir + '/banda-styles/css';
+var theme_dir   = '../themes/' + 'slimdocs-theme',
+    sass_dir    = theme_dir + '/slimdocs-styles/',
+    css_dir     = theme_dir + '/slimdocs-styles/css';
 
 // Define Gulp and auto-plugin loader
 var gulp        = require('gulp'),
